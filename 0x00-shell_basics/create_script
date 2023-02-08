@@ -1,0 +1,3 @@
+#!/bin/bash
+echo '#!/bin/bash \n$2' > $1
+./chmodify $1
